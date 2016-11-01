@@ -1,0 +1,138 @@
+#header{
+  position: fixed;
+  width: 97.5%;
+  height: 55px;
+  z-index: 10000;
+  border: 1px double #00FF51;
+  text-align: left;
+  font-size: 110%;
+  border-radius: .5em;
+  font-size: 28px;
+  line-height:0;
+  background: rgba(51,95,125,.2);
+  color: #FFF;
+  font-family: 'PT Sans' sans-serif;
+  transition: all 0.4s ease;
+  margin-inline-end: 200px;
+  margin-block-start: 2px;
+  padding-inline-start: 10px; 
+}
+
+.ui-datepicker{
+background: rgba(0,64,64,1);
+color: #FFF;
+border-radius: .5em;
+border: 2px solid gold;
+width: auto;
+padding: 15px;
+height: auto;
+}
+span.ui-icon-circle-triangle-e{
+margin-left: 101px;
+}
+
+span.ui-icon{
+box-shadow: 2px 2px 2px black;
+padding: 4px;
+border-radius: .5em;
+background: rgba(51,95,125,.4);
+}
+span.ui-datepicker-month{
+padding: 4px;
+border-radius: .5em;
+margin-left: 45px
+}
+span.ui-datepicker-year{
+padding: 7px;
+}
+.ui-datepicker-calendar{
+box-shadow: 2px 2px 2px 2px black;
+padding: 9px;
+border-radius: .5em;
+margin-top: 15px;
+background: rgba(51,95,125,.2);
+}
+
+h2{
+  margin-top: .7em
+}
+#header.sticky{
+  width: 96.5%;
+  font-size: 14px;
+  line-height:0;
+  height: 38px;
+  background: rgba(0,64,64,.5);
+  padding-left: 20px;
+}
+
+.formsection{
+  margin-top: 70px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  display: block;
+  //background-image: url("docback.jpg") ;
+  background-size: 1366px 780px;
+  background-repeat: repeat;
+  -webkit-filter: blur(5px);
+  -moz-filter: blur(50px);
+}
+
+label{
+}
+
+select{
+  margin-inline-start: 22px;
+  margin-inline-end: 22px;
+}
+
+body{
+  background: #335C7D;
+  border-radius: .5em;
+}
+
+fieldset{
+  margin-inline-end: 22px;
+  margin-inline-start: 22px;
+  border-radius: .5em;
+  border: 1px groove;
+  box-shadow: 4px 4px 4px  4px gray;
+  margin-bottom:5px; 
+  #background-color: #D6FFC8;
+  background-color: rgba(214,255,200,0.4);
+  -moz-filter: blur(10%);
+}
+
+#subdiv{
+  background-color:  #CCCCFF;
+  border: 1px solid greenyellow;
+  margin-inline-end: 22px;
+  margin-inline-start: 22px;
+  border-radius : .5em;
+}
+
+input{
+  margin-inline-end: 22px;
+  margin-inline-start: 22px;
+  margin-block-start: 5px;
+  margin-block-end: 5px;
+  border-radius: .5em;
+}
+
+legend{
+  border: 1px solid #00FF51;
+  border-radius: .5em;
+  #background-color: #D6FFC8;
+  background-color: rgba(214,255,200,.7);
+  transition: all .5s ease-in-out;
+}
+
+input:empty{
+  backface-visibility: hidden;
+}
+
+legend:hover{
+  box-shadow: 3px 3px 3px gray;
+  background-color: #00FF99;
+}

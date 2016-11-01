@@ -1,0 +1,52 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<title> Sign UP! </title>
+</head>
+<body>
+	<!--update the type and methods to be used-->
+	<h2>Please Supply relevant Information </h2>
+	<fieldset>
+		<legend>Personal Information</legend>
+		<form method="POST" action="patientsignup.php" autocomplete="on" nonvalidate="true">
+		<p>
+		<fieldset>
+			<legend>Full Name</legend>
+		<input name="name" type="text" required="required" placeholder="Your Full Name" maxlength="80">
+	</fieldset>
+		<p>
+		<fieldset>
+			<legend>Gender</legend>
+		<input name="gender" value="male" type="radio" checked > Male</input>
+		<input name="gender" value="female" type="radio"> Female</input>
+		</fieldset>
+		</p>
+		<p>
+		<fieldset>
+			<legend>National Identity Number</legend>
+		<input name="idnumber" type="text" required="required" maxlength="8"/>
+		</fieldset>
+		</p>
+		<p>
+		<fieldset>
+			<legend>Telephone Number</legend>
+		<input name="phonenumber" type="text" required="required">
+		</p>
+		</fieldset>
+		<p>
+		<fieldset>
+			<legend>Email</legend>
+		<input name="email" type="text">
+		</p>
+	</fieldset>
+	<fieldset>
+		<legend> Login Details</legend>
+		<label>Password</legend>
+		<input name="password" type="password" required="required">
+	</fieldset>
+		<p>
+		<input type="submit" value="Sign up">
+		</p>
+	</fieldset>
+</body>
+</html>

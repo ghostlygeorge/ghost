@@ -1,0 +1,273 @@
+body{
+  background: url("bacdock.png");
+  background-size: cover;
+}
+
+header {
+  border-bottom: 2px double black;
+  background: rgba(51,95,125,1);
+  color: #FFF;
+  position : fixed;
+  z-index : 10000;
+  width : 100%;
+  height: 98px;
+  font-family: 'PT Sans' sans-serif;
+  transition: all 0.5s ease-in-out;
+  margin-inline-start: -9px;
+  margin-block-start: -9px;
+}
+
+header.sticky{
+  background: rgba(51,95,125,.2);
+  border-radius: .5em;
+  height: 38px;
+  filter : blur(1px);
+  -webkit-filter : blur(1px);
+}
+
+
+#header_info{
+  float: left;
+  width: 20%;
+  height: 76px;
+  font-size: 174%;
+  transition: all 0.3s ease-in-out;
+  margin-left: 29px;
+}
+
+#header_info:hover{
+  box-shadow: 1px 2px 2px 2px black;
+  border-radius: .5em;
+  padding: 10px;
+  margin-left: -5px;
+  background: rgba(0,64,64,.5);
+}
+
+#header_info.sticky:hover{
+  box-shadow: 1px 2px 2px 2px black;
+  border-radius: .5em;
+  padding: 10px;
+  margin-left: -5px;
+  background: rgba(0,64,64,.5);
+  height: 16px;
+  width: 26.5%;
+}
+
+#header_info h3{
+  font-size: 45%;
+  margin-top: -29px;
+  z-index: 100000;
+}
+
+#header_info.sticky{
+  font-size: 85%;
+}
+
+#header_info.sticky h3{
+  font-size: 0;
+}
+
+#header_items{
+  margin-top: 55px;
+  font-size: 14px;
+  text-align: right;
+  padding-inline-end: 20px;
+}
+
+#header_items.sticky{
+  visibility: hidden;
+}
+
+h2{
+  margin-top: 0;
+}
+
+input[type="button"]{
+  box-shadow: 1px 1px 1px 1px black;
+  border: none;
+  border-radius: .5em;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  padding: 3px;
+  color: #FFF;
+  font-size: 11px;
+  background: rgba(51,95,125,.7);
+  transition: all 0.3s ease-in-out;
+}
+
+input[type="button"]:hover{
+  box-shadow: 2px 2px 2px black;
+}
+
+button{
+  background: rgba(255,255,255,0);
+  border: none;
+  color: #FFF;
+}
+
+nav {
+  margin-top: 89px;
+float: left;
+width: 25%;
+clear: left;
+min-height: 100px;
+border-right: 1px solid black;
+border-bottom : 1px solid black;
+ background: rgba(51,95,125,.7);
+  border-radius: .5em;
+  border-left: 1px solid black; 
+  margin-left: -10px;
+  position: fixed;
+  z-index:10000;
+  transition: margin-top 0.3s linear;
+}
+
+nav.height_corr{
+  margin-top: 29px;
+}
+
+.navbar_items{
+   
+}
+
+.navbar_header{
+   background: rgba(51,95,125,.1);
+   border-radius: .5em;
+  color: #FFF;
+  transition: all 0.3s ease-in-out;
+  padding-left: 9px;
+}
+
+.navbar_header:hover{
+  background: rgba(0,64,64,.5);
+  box-shadow: 2px 2px 2px black;
+  padding: 15px;
+}
+
+.navbar_items ul li{
+  box-shadow: 2px 2px 2px 2px black;
+  border-radius: .5em;
+  margin-top: 1px;
+  margin-bottom: 1px;
+  padding: 3px;
+  width: 95%;
+  color: #FFF;
+  font-size: 15px;
+  transition: all 0.3s ease-in-out;
+    
+}
+
+.navbar_items li:hover {
+  box-shadow: 1px 1px 1px black;
+  background: rgba(51,95,125,.8);
+  padding: 8px;
+  #border: 1px #00FF51 solid; 
+}
+
+#navlist ul{
+  margin: 2px;
+}
+
+#navlist ul li {
+  display:block;
+  #visibility: hidden;
+  opacity: 0;
+  height: 0;
+  overflow: hidden;
+  transition: all 0.3s linear;
+}
+
+#navlist:hover ul li {
+  display: block;
+  height: 20px;
+  opacity: 1;
+  width: 93%;
+  margin-bottom: 14px;
+}
+
+#content{
+  float: left;
+  clear: all;
+  width: 75%;
+  min-height: 475px;
+  margin-top: 97px;
+  margin-left: 340px;
+  color : #FFF;
+}
+
+.ui-datepicker{
+  background: rgba(0,64,64,1);
+  color: #FFF;
+  border-radius: .5em;
+  border: 2px solid gold;
+  width: auto;
+  padding: 15px;
+  height: auto;
+}
+
+span.ui-icon-circle-triangle-e{
+  margin-left: 101px;
+}
+
+span.ui-icon{
+  box-shadow: 2px 2px 2px black;
+  padding: 4px;
+  border-radius: .5em;
+  background: rgba(51,95,125,.4);
+}
+
+span.ui-datepicker-month{
+  padding: 4px;
+  border-radius: .5em;
+  margin-left: 45px
+}
+
+span.ui-datepicker-year{
+  padding: 7px;
+}
+
+.ui-datepicker-calendar{
+  box-shadow: 2px 2px 2px 2px black;
+  padding: 9px;
+  border-radius: .5em;
+  margin-top: 15px;
+  background: rgba(51,95,125,.2);
+}
+
+#content_title{
+  font-size: 110%;
+  border: 1px solid black;
+  width: 50%;
+  padding: 9px;
+  border-radius: .9em;
+  background: rgba(255,255,255,.1);
+  transition: all 0.3s ease-in-out;
+}
+
+#content_title p{
+  opacity: 0;
+  height: 0px;
+  margin-top: -15px;
+  transition: all 0.3s ease-in-out;
+}
+
+#content_title:hover p{
+  opacity: 1;
+  height: 19px;
+}
+
+#content_information{
+  background: rgba(255,255,255,.1);
+  border-radius: .9em;
+  width: 85%;
+  padding: 14px;
+  margin-top: 9px;
+}
+
+footer {
+clear: both;
+border-top: 5px double black;
+text-align: center;
+color :#FFF;
+}
+

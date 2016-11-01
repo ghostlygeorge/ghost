@@ -1,0 +1,15 @@
+ength - 1 ) === ">" && selector.length >= 3 ) {
+                                // Assume that strings that start and end with <> are HTML and skip the regex check
+                                match = [ null, selector, null ];
+
+                        } else {
+                                match = rquickExpr.exec( selector );
+                        }
+
+                        // Match html or make sure no context is specified for #id
+                        if ( match && (match[1] || !context) ) {
+
+                                // HANDLE: $(html) -> $(array)
+                                if ( match[1] ) {
+                                        context = context instanceof jQuery ? context[0] : context;
+                                    

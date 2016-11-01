@@ -1,0 +1,14 @@
+{
+	"treatments" : {
+		"Consultation":"5000",
+		"Root Canal":"7000",
+		"Extraction":"7000",
+		"Filling":"8000",
+		"Cleaning":"5000",
+		"Lookup":"1200",
+		"Screening":"5000",
+		"Fluorosis Removal":"13000",
+		"Braces":"15000",
+		"Plasmosis":"50900"
+		}
+}

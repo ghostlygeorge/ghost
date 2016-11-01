@@ -1,0 +1,13 @@
+function getAJAX(){
+var request = new XMLHttpRequest();
+request.open("GET", "beast.txt", false);
+request.send(null);
+if (request.status == 200){
+//we got a response
+alert(request.responseText);
+} else {
+//something went wrong
+alert(“Error- " + request.status + ": " + request.statusText);
+} // end if
+} // end function
+Warzone

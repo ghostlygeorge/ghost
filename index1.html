@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+<!--This title is debatable , we shall discuss within the group-->
+<title>Welcome to Doctors Companion</title>
+	<!--@George should insert relevant javascript necessary for:
+		1.Animating
+		2.Checking nodes for Data
+		3.perhaps some AJAX-->
+<script type="text/javascript">
+</script>
+</head>
+</title>
+<!--@Brenda -link your css here from a separate file-->
+<body>
+<link rel="stylesheet"
+      type="text/css"
+      href="harry_index.css"/>
+	<!--@Brenda : use title header and center and footer to style this page
+			* try and Go through the tags and create a style element for each
+			* i suggest using a separate css file that will be linked here via link rel..
+			* feel free to change names of the class names and ids : but note it down somewhere to trace easily
+			* make it look nice :)-->
+<div id="all">
+	<div class=header id="header">
+		<h2>Welcome to The Doctors Companion</h2>
+	</div>
+	<div class=left id=left>
+		<!--let this be an exclusive navigation bar which will be hidden for now-->
+	</div>
+	<div class=center id="center">
+		<!--all our objectives will be discussed or rather appended here-->
+		<p>
+		Preto and Morris mtajaza apa stuff mme research
+		</p>
+	</div>
+	<div class=right id="main">
+	<!-- perhaps add pictures detailing our organization alongside the form-->
+	<form action="auth.php" method="POST">
+	<fieldset>
+		<legend>Sign Up!</legend>
+		<p>
+		<label>E-Mail</label>
+		<input type="text" value="email" name="email">
+		</p>
+		<p>
+		<label>First Name</label>
+		<input type="text" />
+		</p>
+		<p>
+		<label>Surname</label>
+		<input type="text" name="sname" value="surname" />
+		</p>
+		<br>
+		<br>
+		<p>
+			<a href="login.html">already have an account! Log in</a>
+		</p>
+	</fieldset>
+	<input type="submit"/>
+	</form> 
+	</div>
+	<div class=footer id="footer">
+	</div>
+</div>
+</body>

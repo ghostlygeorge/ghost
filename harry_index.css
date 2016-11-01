@@ -1,0 +1,51 @@
+#all{
+  /*applies to all elements in the super-div*/
+  width: 800px;
+  height: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid gray;
+}
+#header{  
+  background-color: #e2e393;
+  border-bottom: 3px solid black;
+  text-align: center;
+  width: 800px;
+  height: 100px;
+  padding-top: 1em;
+}
+
+.right legend{
+  border: 1px solid aqua;
+  background-color: aqua;
+}
+
+#left{
+ 
+}
+
+#center{
+   float: left;
+  width: 570px;
+  clear: left;
+  border-right: 1px solid black;
+  height: 400px;
+  padding-right: .5em;
+}
+
+#main{
+ float: left;
+ width: 50px;
+ height: 400px;
+ padding-left: .5em;
+}
+
+#footer{
+  width: 800px;
+  height: 60px;
+  text-align: center;
+  background-color: #e2e393;
+  border-top: 3px double black;
+  padding-bottom: 1em;
+  clear: both;
+}
